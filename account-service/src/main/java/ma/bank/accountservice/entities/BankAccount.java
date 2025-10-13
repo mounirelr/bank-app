@@ -14,7 +14,7 @@ public class BankAccount {
     private Double balance;
     private LocalDateTime createdAt;
     @Enumerated(EnumType.STRING)
-    private AccountType bankAccount;
+    private AccountType type;
     private String currency;
     private Long customerId;
     @Transient
